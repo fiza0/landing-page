@@ -59,9 +59,16 @@ body {
     border-radius: 6px;
     border:none;
 }
-.hero-text {
-    flex:auto;
-    height: 236px;
+.hero-text,
+.hero-img {
+    flex:1;
+    height: 78%;
     padding:0px;
     margin:0px;
 }
+.hero-img img {
+    width:100%;
+    height: 100%;
+}
+
+
