@@ -113,6 +113,13 @@ button {
     align-items: center;
     flex-direction: column;
 }
+p em {
+    font-size: 36px;
+    font-weight: 100;
+}
+.quote.actual-qoute>p {
+    align-self: flex-end;
+}
 .pop-up {
     display:flex;
     align-content: center;
