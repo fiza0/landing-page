@@ -53,7 +53,7 @@ body {
     padding: 10px 10px 10px 0;
     margin: 0;
 }
-.button {
+button {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 5px 20px;
@@ -99,5 +99,50 @@ body {
     height: 200px;
     width: auto;
 }
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 64px;
+    text-align: center;
+}
+.quote.actual-qoute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pop-up {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    padding: 32px;
+}
+.actual-pop-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:32px;
+    gap: 16px;
+}
+.white-border {
+    border:1px solid white;
+    height: 27px;
+    align-self: center;
+}
+.pop-up-text .head {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+.pop-up-text p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #e5e7eb;
+}
+
 
 
