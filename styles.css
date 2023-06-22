@@ -63,12 +63,13 @@ button {
 .hero-text,
 .hero-img {
     flex:1;
-    height: 78%;
+    max-height: 78%;
     padding:0px;
     margin:0px;
 }
 .hero-img img {
-    width:100%;
+    
+    width: 100%;
     height: 100%;
 }
 .info {
