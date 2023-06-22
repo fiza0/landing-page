@@ -158,3 +158,8 @@ p em {
     padding: 28px 64px;
     color: #f9faf8;
 }
+.content {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
